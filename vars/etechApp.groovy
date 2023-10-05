@@ -1,5 +1,5 @@
 def call(string repoUrl){
-   pipeline {
+    pipeline {
        agent any
        stages {
            stage("Tools initialization") {
@@ -20,5 +20,5 @@ def call(string repoUrl){
                }
            }
        }
-} 
+}
 }
