@@ -2,7 +2,7 @@ def call(String repoUrl){
     pipeline {
        agent any
        stages {
-           stage("Tools initialization") {
+           stage("Divine-Tools initialization") {
                steps {
                    sh 'ls'
                    sh 'java -version'
